@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- container -->
+        <div class="container">
+            <!-- navigation bar -->
+            <div class="navbar">
+                <h1>Dojonary</h1>
+                <input type="text" name="Search" placeholder=" Search" class="search">
+                <button onclick="switchMe(this)" class="login">Login</button>
+            </div>
+            <div class="lowernavbar">
+                <div class="left_half">
+                    <!-- top definition card -->
+                    <div class="definition1">
+                        <div class="left_side_def">
+                            <h1>ninja</h1>
+                            <h2 class="noun">noun</h2>
+                            <h2 class="plural">Plural: ninjas</h2>
+                            <button class="like_button" onclick="ninjaLiked(this)">13 likes</button>
+                        </div>
+                        <div class="right_side_def">A practitioner skilled in the <a href="Ninja1">Japanese</a> art of
+                            <a href="">ninjutsu</a></div>
+                    </div>
+                    <!-- bottom definition card -->
+                    <div class="definition2">
+                        <div class="left_side_def">
+                            <h1>ninja</h1>
+                            <h2 class="noun">noun</h2>
+                            <h2 class="plural">Plural: ninjas</h2>
+                            <button class="like_button" onclick="ninjalike(this)">37 likes</button>
+                        </div>
+                        <div class="right_side_def">A <a href="Ninja2">programmer</a> who breaks down problems with <a
+                                href="">zen</a>-like focus</div>
+                    </div>
+                </div>
+                <!-- dojonary card -->
+                <div class="right_half">
+                    <div class="dojo">Dojonary is defined by YOU</div>
+                    <button class="add_definition" onclick="removeButton(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
